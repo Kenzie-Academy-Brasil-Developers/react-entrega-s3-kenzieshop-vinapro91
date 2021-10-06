@@ -23,12 +23,12 @@ export const Content = styled.div`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 95vh;
   justify-content: center;
+  position: relative;
 `;
 
 export const Card = styled.div`
-  width: 250px;
+  width: 200px;
   height: 396px;
   border: 3px solid var(--Eminence);
   margin: 15px;
