@@ -25,7 +25,7 @@ export default createGlobalStyle`
     }
 
     body {
-        background: linear-gradient(90deg,rgba(5,199,242,1) 0%,rgba(2,62,115,1) 12%,rgba(13,13,13,1) 100%);
+        background: var(--pictonBlue);
         
         color: var(--white)
     }
